@@ -16,10 +16,10 @@ public class Max {
     double maxValue; //This is the maximum value
     
     public Max(double[] A){
-        array = new double[A.length];
+        array = new double[A.length];   
         System.arraycopy(A, 0, array, 0, A.length);
-        N = A.length;
-    }
+        N = A.length;   //Input is transfered to the local variable
+    }// This is construct
     
     public double max(){
         for(int i=0;i<N-1;i++){
