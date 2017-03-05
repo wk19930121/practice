@@ -10,6 +10,7 @@ package javapractice;
  * @author Kuan
  */
 public class Max {
-    
-    
+    public static void main (String[] arg){
+        
+    }
 }
