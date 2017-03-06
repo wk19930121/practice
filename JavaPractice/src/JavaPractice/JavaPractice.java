@@ -10,7 +10,6 @@ package javapractice;
  * a set of mathematical calculations. 
  * 
  * The first function I will deliver is the Max function.
- * The first Max function is delivered.
  * @author Kuan
  */
 public class JavaPractice {
