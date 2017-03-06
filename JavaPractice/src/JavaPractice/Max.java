@@ -19,7 +19,7 @@ public class Max {
         array = new double[A.length];   
         System.arraycopy(A, 0, array, 0, A.length);
         //Input is transfered to the local variable
-    }// This is construct
+    }// This is constructor
     
     public double getMax(){
         for(int i=0;i<array.length-1;i++){
