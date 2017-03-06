@@ -20,7 +20,12 @@ public class JavaPractice {
         double maxV = MaxChange.getMax();
         System.out.println("The maximum value in this array is "+maxV);
         
-        System.out.println("The ");
+        
+        for(int i=1; i<=10; i++){
+            TestRabbit rabbit = new TestRabbit();
+            int sum = rabbit.sumRabbit(i);
+            System.out.println( sum +", ");
+        }
     }
     
 }
