@@ -19,6 +19,8 @@ public class JavaPractice {
         Max MaxChange = new Max(testArray);
         double maxV = MaxChange.getMax();
         System.out.println("The maximum value in this array is "+maxV);
+        
+        System.out.println("The ");
     }
     
 }
