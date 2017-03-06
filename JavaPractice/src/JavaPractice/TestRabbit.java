@@ -11,10 +11,6 @@ package JavaPractice;
  */
 public class TestRabbit {
     
-    public TestRabbit(){
-        
-    };
-    
     // N is the month.
     public static int sumRabbit(int N){
         int k = 1;  //The quantity of the rabbits in the first month
@@ -28,4 +24,10 @@ public class TestRabbit {
         return k;
     }
     
+    public static void main(String[] arg){
+            for(int i=1; i<=10; i++){
+            int sum = TestRabbit.sumRabbit(i);
+            System.out.println( sum +", ");
+            }
+    }
 }
